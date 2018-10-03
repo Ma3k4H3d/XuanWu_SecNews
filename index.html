@@ -1,0 +1,32 @@
+<html>
+
+<head>
+    <title>XuanwuLab</title>
+</head>
+<body>
+
+<script language="javascript">
+var type=navigator.appName
+if (type=="Netscape"){
+var lang = navigator.language
+}
+else{
+var lang = navigator.userLanguage
+}
+var lang = lang.substr(0,2)
+if (lang == "en"){
+window.location.href="http://xlab.tencent.com/en/"
+}
+else if (lang == "zh"){
+  window.location.href="http://xlab.tencent.com/cn/"
+}
+else{
+window.location.href="http://xlab.tencent.com/en/"
+}
+</script>
+
+<a href="/en/">English</a>
+<br><br>
+<a href="/cn/">Chinese</a>
+</body>
+</html>
